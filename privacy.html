@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E-Mail Manager — Privacy Policy</title><meta name="author" content="Rob Datta, robdatta@gmail.com">
+<link rel="icon" href="logo.png"><style>
+:root{--bg:#fff;--ink:#1f2328;--muted:#5f6873;--line:#dde3ea;--brand:#1a73e8}
+@media (prefers-color-scheme:dark){:root{--bg:#15181c;--ink:#e8eaed;--muted:#9aa3ad;--line:#343a42;--brand:#8ab4f8}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 48px}
+a{color:var(--brand)} header{display:flex;gap:14px;align-items:center;margin-bottom:8px}
+header img{width:56px;height:56px} h1{margin:0;font-size:28px} code{font-size:.9em}
+.shot{width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:16px 0}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style></head>
+<body><main><h1>E-Mail Manager — Privacy Policy</h1>
+<p><em>Last updated: October 1, 2026</em></p>
+<p>E-Mail Manager ("the extension") is published by Rob Datta (robdatta@gmail.com). Utility that scans inbox(es) and replies to messages with text, images, and attachments based on user-specified rules and schedule. This policy explains what data the extension uses and why.</p>
+<h2>What the extension accesses</h2>
+<p>When you connect a Google account, the extension asks Google for the <code>https://www.googleapis.com/auth/gmail.modify</code> permission. It uses it to:</p>
+<ul>
+<li><strong>read</strong> messages in the folder you choose, to check them against your rules;</li>
+<li><strong>send</strong> the reply you wrote, with the attachments you chose;</li>
+<li><strong>add or remove labels</strong>, and mark messages read or archive them, as you configured;</li>
+<li><strong>send you an activity report</strong> e-mail at the inbox that was processed;</li>
+<li><strong>read your Gmail signature</strong>, if you ask for it to be added to replies.</li>
+</ul>
+<p>The extension never deletes e-mail.</p>
+<h2>Where your data is kept</h2>
+<ul>
+<li>Your settings (rules, reply text, schedule), attachment files, the list of e-mails already handled, and run history are stored <strong>only in your browser</strong>, using Chrome extension storage and IndexedDB.</li>
+<li>Google sign-in tokens are kept in Chrome's session storage and are cleared when Chrome closes.</li>
+<li>E-mail content is read directly from Google's Gmail API into your browser. It is used only to apply your rules and is <strong>not sent to the publisher or to any third party</strong>.</li>
+<li>The extension has no servers. It contacts only Google: <code>accounts.google.com</code>, <code>oauth2.googleapis.com</code> and <code>gmail.googleapis.com</code>.</li>
+</ul>
+<h2>Sharing and use</h2>
+<ul>
+<li>We do not sell, rent or share your data.</li>
+<li>We do not use your data for advertising, credit decisions or any purpose other than the features described above.</li>
+<li>We do not let humans read your data. The one exception is when you ask us for support and send us information yourself.</li>
+</ul>
+<p>E-Mail Manager's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Your choices</h2>
+<ul>
+<li><strong>Disconnect</strong>: Settings → Review &amp; save → Advanced → <em>Disconnect Google account</em>. You can also remove access at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.</li>
+<li><strong>Delete data</strong>: removing the extension from Chrome deletes all data it stored.</li>
+</ul>
+<h2>Contact</h2>
+<p>Rob Datta — robdatta@gmail.com</p>
+<footer>E-Mail Manager by Rob Datta · <a href="mailto:robdatta@gmail.com">robdatta@gmail.com</a> ·
+<a href="index.html">Home</a> · <a href="privacy.html">Privacy policy</a> ·
+<a href="https://github.com/robdatta/E-mail_Manager">Source code</a></footer></main></body></html>
